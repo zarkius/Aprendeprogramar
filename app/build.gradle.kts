@@ -8,13 +8,9 @@ plugins {
 
 }
 
-dependencies {
-    implementation(libs.androidx.core.ktx) // Use the latest version
-}
-
 android {
     namespace = "aprendeprogramar2"
-    compileSdk = 35
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.playconsole.aprendeprogramar2"
@@ -22,7 +18,6 @@ android {
         versionCode = 1
         versionName = "1.0"
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         signingConfig = signingConfigs.getByName("debug")
     }
 
