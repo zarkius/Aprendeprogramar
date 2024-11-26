@@ -12,6 +12,8 @@ pluginManagement {
     }
     plugins {
         kotlin("jvm") version "2.0.21"
+        id("com.android.application") version "8.7.2"
+        id("org.jetbrains.kotlin.android") version "1.9.24"
     }
 }
 plugins {
@@ -28,3 +30,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "AprendeProgramar2"
 include(":AprendeProgramar2")
+include(":aprendeprogramar")

@@ -11,6 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/AprendeProgramar2" />
+            <option value="$PROJECT_DIR$/aprendeprogramar" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
