@@ -1,30 +1,24 @@
 [versions]
 agp = "8.7.2"
 kotlin = "2.0.0"
-coreKtx = "1.15.0"
 junit = "4.13.2"
-espressoCore = "3.6.1"
-material = "1.12.0"
-firebaseCrashlytics = "19.2.1"
-googleGmsGoogleServices = "4.4.2"
+
 googleFirebaseCrashlytics = "3.0.2"
-playServicesAds = "23.5.0"
-firebaseAnalytics = "22.1.2"
+
+runner = "1.0.2"
+espressoCoreVersion = "3.0.2"
+appcompatV7 = "28.0.0"
 
 [libraries]
-androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version = "1.2.0" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
-androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
-material = { group = "com.google.android.material", name = "material", version.ref = "material" }
-firebase-crashlytics = { group = "com.google.firebase", name = "firebase-crashlytics", version.ref = "firebaseCrashlytics" }
-play-services-ads = { group = "com.google.android.gms", name = "play-services-ads", version.ref = "playServicesAds" }
-firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics", version.ref = "firebaseAnalytics" }
-play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version = "19.0.0" }
-play-services-location = { group = "com.google.android.gms", name = "play-services-location", version = "21.3.0" }
+
+runner = { group = "com.android.support.test", name = "runner", version.ref = "runner" }
+espresso-core = { group = "com.android.support.test.espresso", name = "espresso-core", version.ref = "espressoCoreVersion" }
+appcompat-v7 = { group = "com.android.support", name = "appcompat-v7", version.ref = "appcompatV7" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
 google-firebase-crashlytics = { id = "com.google.firebase.crashlytics", version.ref = "googleFirebaseCrashlytics" }
+android-library = { id = "com.android.library", version.ref = "agp" }
 
