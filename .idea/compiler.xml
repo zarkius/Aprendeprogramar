@@ -6,6 +6,15 @@
       <module name="AprendeProgramar.aprendeprogramar" target="21" />
       <module name="AprendeProgramar.main" target="21" />
       <module name="AprendeProgramar.test" target="21" />
+      <module name="AprendeProgramar2.app.main" target="21" />
+      <module name="AprendeProgramar2.app.test" target="21" />
+      <module name="AprendeProgramar2.list.main" target="21" />
+      <module name="AprendeProgramar2.list.test" target="21" />
+      <module name="AprendeProgramar2.utilities.main" target="21" />
+      <module name="AprendeProgramar2.utilities.test" target="21" />
+      <module name="build-logic" target="21" />
+      <module name="build-logic.main" target="21" />
+      <module name="build-logic.test" target="21" />
     </bytecodeTargetLevel>
   </component>
 </project>

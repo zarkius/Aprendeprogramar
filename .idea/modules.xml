@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/AprendeProgramar2.iml" filepath="$PROJECT_DIR$/.idea/AprendeProgramar2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AprendeProgramar2/AprendeProgramar2.AprendeProgramar2.iml" filepath="$PROJECT_DIR$/.idea/modules/AprendeProgramar2/AprendeProgramar2.AprendeProgramar2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Aprendeprogramar2.iml" filepath="$PROJECT_DIR$/.idea/modules/Aprendeprogramar2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Aprendeprogramar2.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Aprendeprogramar2.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/list/Aprendeprogramar2.list.iml" filepath="$PROJECT_DIR$/.idea/modules/list/Aprendeprogramar2.list.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utilities/Aprendeprogramar2.utilities.iml" filepath="$PROJECT_DIR$/.idea/modules/utilities/Aprendeprogramar2.utilities.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/aprendeprogramar/AprendeProgramar2.aprendeprogramar.iml" filepath="$PROJECT_DIR$/.idea/modules/aprendeprogramar/AprendeProgramar2.aprendeprogramar.iml" />
     </modules>
   </component>
